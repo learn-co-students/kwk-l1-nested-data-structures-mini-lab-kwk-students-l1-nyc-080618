@@ -7,8 +7,11 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  # your code here!
+  puts sandwich_request "ingredients #{[3][0], [3][1], [3][2]}"  
+  puts sandwich_request "ingredients #{ [2][2]}"
+  puts sandwich_request "ingredients #{ [0][1]}"
 end
+end  
 
 # example city_info hash
 cities = {
@@ -35,5 +38,12 @@ cities = {
 }
 
 def city_populations(cities)
-  # your code here!
+  puts cities [:los_angeles]  
+  puts cities [:chicago][:mayor]
+  puts cities [:new_york][:population]
+  puts cities [:miami][:website]
+  puts cities [:los_angeles][:mayor]
+  puts chicago = cities[:chicago]
 end
+city_populations(cities)
+
